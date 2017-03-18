@@ -1,5 +1,5 @@
 <?php
-#Main page of Mars project by wh0ami
+#Import the library:
 include "htmlkitphp.php";
 
 htmlstart($html = '');
