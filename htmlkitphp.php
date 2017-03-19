@@ -41,4 +41,11 @@ function htmlfromfile($htmlfromfile = ''){
 function htmllinkcss($htmllinkcss = ''){
 echo '<link rel="stylesheet" type="text/css" href="' . $htmllinkcss . '">';
 }
+
+function htmllinkjs($htmllinkjs = ''){
+   echo "<script src='" . $htmllinkjs . "'></script>";
+}
+
+
+
 ?>
